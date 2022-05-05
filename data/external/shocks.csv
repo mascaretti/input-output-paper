@@ -1,0 +1,55 @@
+sector,shutdown
+Crop,1.0
+Forestry,1.0
+Fishing,1.0
+Mining,1.0
+M. food,1.0
+M. textile,1.0
+M. wood,1.0
+M. paper,1.0
+Print. rec. media,1.0
+M. coke and petrol,1.0
+M. chemicals,1.0
+M. basic pharma.,1.0
+M. rubber and plastic prods.,1.0
+M. mineral prod.,1.0
+M. basic metals,1.0
+M. fabr. metal prod.,1.0
+M. computer prod.,1.0
+M. electrical equip.,1.0
+M. machinery,1.0
+M. MV,0.0
+M. ot. trans. equip.,0.0
+M. furniture,1.0
+Repair equip.,1.0
+Electr. and gas,1.0
+Water supply,1.0
+Sewerage,1.0
+Construction,0.5
+Wholesale MVs,0.25
+Wholesale trade,0.25
+Retail trade,0.25
+Land trans.,1.0
+Water trans.,1.0
+Air trans.,0.25
+Warehousing,1.0
+Postal act.,1.0
+Accommodations,0.25
+Publish. act.,1.0
+Motion picture,1.0
+Telcom,1.0
+Computer progr.,1.0
+Financial service,1.0
+Insurance and pensions,1.0
+Aux. to finan. services,1.0
+Real estate,0.5
+Legal,0.5
+Arch. And engin.,0.5
+Scientific R&D,0.5
+Ads and market,0.5
+Oth. prof. act.,0.5
+Admin. act.,1.0
+PA and defence,1.0
+Education,1.0
+Human health,1.0
+Other service,0.0

@@ -1,0 +1,44 @@
+# Download ----------------------
+download:
+  behaviour: "default" # default, overwrite, skip
+
+# Scope of the analysis ----------
+scope:
+  year: 2014
+  countries: 'EU' #EU, OTHER. If OTHER is selected, provide a list of countries
+  country_list: ['GBR', 'AUT', 'USA', 'ITA', 'NOR', 'CHN', 'ESP']
+
+# NMF ----------------------------
+nmf:
+  num_components: 3
+  tolerance: 1e-15
+  num_iterations: 2000
+  alpha: 0.20
+  rho: 0.05
+  seed: 20191021
+
+# Validation ----------------------
+validation:
+  svd:
+    compute: False
+  cross_validation:
+    compute: False
+  bi_cross_validation:
+    final_loss_fun:
+      compute: False
+      num_folds: 10000
+      max_rank: 25
+    seeds:
+      compute: False
+      list_seed: [17890714, 19910924, 19680513, 19970525, 20191021] # Set list of different seeds
+      num_folds: 5000
+      max_rank: 20
+    penalisations:
+      compute: False
+      list_penalisations: [[0.05, 0.05], [0.05, 0.5], [0.05, 0.95], [0.2, 0.05], [0.2, 0.5], [0.2, 0.95], [0.45, 0.05], [0.45, 0.5], [0.45, 0.95], [0.8, 0.05], [0.8, 0.5], [0.8, 0.95]]
+      num_folds: 5000
+      max_rank: 20
+
+# Random Walk centrality
+rwc:
+  weights: True
